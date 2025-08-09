@@ -1,11 +1,15 @@
+# Archivos compilados
 *.class
 *.dex
 *.apk
+
+# Carpetas de build/gradle
+/build/
 /out/
-build/
-.gradle/
-.idea/
-*.iml
+/.gradle/
+/.idea/
+
+# Archivos de logs y temporales
 *.log
 .DS_Store
 Thumbs.db
